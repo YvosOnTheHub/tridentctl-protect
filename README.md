@@ -16,7 +16,7 @@ This repository contains the necesary files to create container images with the 
 
 Images were tested with Kubernetes 1.29 as well as OpenShift 4.18.  
 They need to be created in the _trident-protect_ namespace, in order to use the same _service account_.  
-If you planned on creating the pods in a different namespace, you would need to create the corresponding RBAC to get access to the AppVault.  
+If you were planning on creating the pods in a different namespace, you would need to create the corresponding RBAC to get access to the AppVault.  
 
 ## A. Interactive image
 
