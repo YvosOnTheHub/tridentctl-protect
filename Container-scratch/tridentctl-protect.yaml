@@ -7,7 +7,7 @@ spec:
   restartPolicy: Never
   containers:
     - name: tridentctl-protect-scratch
-      image: quay.io/yvosonthehub/tridentctl-protect:scratch-25.10.0
+      image: quay.io/yvosonthehub/tridentctl-protect:scratch-26.02.0
       command: ["/tridentctl-protect"]
       args: ["get","appvaultcontent","ontap-vault","--show-resources","all","-n","trident-protect"]
   serviceAccountName: trident-protect-controller-manager

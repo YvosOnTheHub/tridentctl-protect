@@ -10,7 +10,7 @@ Tridentctl-protect is the product cli that can:
 
 The latter may be challenging as not all Kubernetes admins or application owners have access to the bucket... 
 
-This repository contains the necesary files to create container images with the tridentctl-protect (v25.10) included:  
+This repository contains the necesary files to create container images with the tridentctl-protect (v26.02) included:  
 - [an interactive image](./Container-interactive/)
 - [a scratch image](./Container-scratch/), with args passed in the YAML manifest
 
